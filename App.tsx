@@ -7,13 +7,13 @@
 
 import React from 'react';
 import {SafeAreaView, StyleSheet} from 'react-native';
-import Welcome from './Views/Welcome';
 import {colors} from './components/colors';
+import Rootstack from './components/navigators/rootstack';
 
 function App(): React.JSX.Element {
   return (
     <SafeAreaView style={{backgroundColor: colors.white}}>
-      <Welcome />
+      <Rootstack />
     </SafeAreaView>
   );
 }

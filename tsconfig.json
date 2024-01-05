@@ -1,3 +1,19 @@
 {
-  "extends": "@react-native/typescript-config/tsconfig.json"
+  "extends": "@react-native/typescript-config/tsconfig.json",
+  "compilerOptions": {
+    // Add or override compiler options if needed
+    // For example:
+    "jsx": "react-native",
+    // other options...
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx"
+    // Add other paths if needed
+  ],
+  "exclude": [
+    "node_modules"
+    // Add other paths to exclude if needed
+  ]
 }
+
